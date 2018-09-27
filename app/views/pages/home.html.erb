@@ -1,7 +1,31 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<%= react_component 'Title' %>
-<%= react_component 'Main' %>
-<%= react_component('test', name: 'John') %>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 70%), url('<%= image_path 'index.jpeg' %>');">
+  <div class="banner-content">
+    <br>
 
-<div class="container"></div>
+    <h1>Hi, I am Benjamin!</h1>
+    <br>
+    <br>
+    <h4 style= "color:white;">Let's change the world together!</h4>
+    <br>
+
+  </div>
+</div>
+<a href="#second_half_page">
+  <div class="arrow">
+    <div class="arrow-top"></div>
+    <div class="arrow-bottom"></div>
+  </div>
+</a>
+<div id="second_half_page">
+  <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 70%), url('<%= image_path 'index.jpeg' %>');">
+
+    <div class="banner-content">
+    <br>
+
+    <h1>My projects</h1>
+    <br>
+    <br>
+    <br>
+
+  </div>
+</div>
